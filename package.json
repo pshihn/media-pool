@@ -1,0 +1,32 @@
+{
+  "name": "media-pool",
+  "version": "0.1.0",
+  "description": "A pool of reusable media elements for the web.",
+  "main": "lib/pool.js",
+  "module": "lib/pool.js",
+  "types": "lib/media-pool.d.ts",
+  "scripts": {
+    "build": "rm -rf lib && tsc && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pshihn/media-pool.git"
+  },
+  "keywords": [
+    "media",
+    "video",
+    "audio"
+  ],
+  "author": "Preet Shihn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pshihn/media-pool/issues"
+  },
+  "homepage": "https://github.com/pshihn/media-pool#readme",
+  "devDependencies": {
+    "rollup": "^2.23.0",
+    "rollup-plugin-terser": "^6.1.0",
+    "typescript": "^3.9.7"
+  }
+}
