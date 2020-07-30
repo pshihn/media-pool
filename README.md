@@ -15,7 +15,7 @@ npm install media-pool --save
 
 In your code:
 
-```
+```javascript
 import { VideoPool }  from 'media-pool'
 // or for audio:
 import { AudioPool }  from 'media-pool'
